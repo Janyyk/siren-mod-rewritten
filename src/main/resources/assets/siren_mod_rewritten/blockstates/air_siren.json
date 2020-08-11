@@ -1,0 +1,47 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "siren_mod_rewritten:airsiren.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#2": "siren_mod_rewritten:blocks/texture",
+      "#4": "siren_mod_rewritten:blocks/1",
+      "#5": "siren_mod_rewritten:blocks/2"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "siren_mod_rewritten:airsiren.obj"
+    },
+    "facing=north": {
+      "model": "siren_mod_rewritten:airsiren.obj"
+    },
+    "facing=east": {
+      "model": "siren_mod_rewritten:airsiren.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "siren_mod_rewritten:airsiren.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "siren_mod_rewritten:airsiren.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "siren_mod_rewritten:airsiren.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "siren_mod_rewritten:airsiren.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}
